@@ -387,15 +387,15 @@ fclose(target_fid);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Target point information for the circles
 
-target_fid = fopen([mesh_name 'circ_' num2str(N) '.target'], 'w');
-
-fprintf(target_fid, '%d\n', Nracecirc);
-
-for i = 0:Nrace-1
-    fprintf(target_fid, '%d %1.16e\n', i, kappa_target*ds/(ds^2));
-end
-
-fclose(target_fid);
+% target_fid = fopen([mesh_name 'circ_' num2str(N) '.target'], 'w');
+% 
+% fprintf(target_fid, '%d\n', Nracecirc);
+% 
+% for i = 0:Nrace-1
+%     fprintf(target_fid, '%d %1.16e\n', i, kappa_target*ds/(ds^2));
+% end
+% 
+% fclose(target_fid);
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
