@@ -131,6 +131,9 @@ For the velocity profile file, enter next:
 This will produce a folder with time series data for each simulation and some combined results of Q and other measures of fluid flow in the circulatory system. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
 ## 7. Execute MATLAB script to calculate cost of transport and work
 
 The final script to execute is the matlab script that calculates cost of transport and work performed by the heart tube on the fluid. This script works on the `hier_data_IB2d` data produced through IBAMR. These folders should be located in the same directory as the `viz_IB2d` folders also produced. 
@@ -142,8 +145,11 @@ To run the script on Bridges, run the following script located in `src/bridges`:
 Before running the script, be sure to change the simulation set number on line 12, the track name in line 15, and the appropriate top working directory in line 18. 
 
 This will produce a csv file located in `results/matlab-csv-files/{track}_results/` with two columns: cost of transport and work. 
+<<<<<<< HEAD
 =======
 
 >>>>>>> 09350e7a35a6ae0a026f318dd2a354ffc509f69c
+=======
+>>>>>>> upstream/master
 
 

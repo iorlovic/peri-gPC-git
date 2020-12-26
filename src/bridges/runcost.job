@@ -13,10 +13,17 @@ set -x
 sim=165
 
 # Set track
+<<<<<<< HEAD
 track=\'obstacles\'
 
 # Set path 
 WD=/pylon5/bi561lp/iorlovic/peri-gPC-git
+=======
+track=\'branch\'
+
+# Set path 
+WD=/pylon5/bi561lp/lwaldrop/peri-gPC-git
+>>>>>>> upstream/master
 MatWD=\'$WD\'
 
 # move to working directory
