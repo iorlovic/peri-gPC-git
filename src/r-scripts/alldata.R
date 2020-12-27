@@ -23,7 +23,7 @@ allofit <- matrix(NA, n, length(outputs) * length(types) + 5)
 allofit[, 1] <- seq(1,n)
 allofit[, 2] <- parameters$V1
 allofit[, 3] <- parameters$V2
-allofit[, 4] <- parameters$V3
+allofit[, 4] <- parameters$V3setwd(getwd()) > source('src/r-scripts/alldata.R')
 parameter_names<-c("Wo", "CR", "Freq")
 
 # Checks for and makes new directory for time series data
